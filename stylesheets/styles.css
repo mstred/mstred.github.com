@@ -235,6 +235,10 @@ h1.header {
 	margin-top: 0;
 }
 
+div.header#avatar {
+	background-image: "https://a248.e.akamai.net/assets.github.com/images/gravatars/gravatar-user-420.png";
+	width: 100px;
+}
 
 h1.header, a.header, a.name, header a{
 	color: #fff;
