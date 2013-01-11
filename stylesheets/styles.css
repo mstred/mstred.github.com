@@ -236,8 +236,13 @@ h1.header {
 }
 
 div.header#avatar {
-	background-image: url("https://twimg0-a.akamaihd.net/profile_images/435379654/Robot7.png");
+	background: url("https://twimg2-a.akamaihd.net/profile_images/435379654/Robot7.png");
 	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+	border: 25px ridge #C30000;
+	margin-bottom: 20px;
+	background-color: rgba(200,200,200,0.25);
 }
 
 h1.header, a.header, a.name, header a{
