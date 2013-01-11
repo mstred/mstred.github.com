@@ -236,7 +236,7 @@ h1.header {
 }
 
 div.header#avatar {
-	background-image: "https://a248.e.akamai.net/assets.github.com/images/gravatars/gravatar-user-420.png";
+	background-image: url("https://twimg0-a.akamaihd.net/profile_images/435379654/Robot7.png");
 	width: 100px;
 }
 
