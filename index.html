@@ -8,8 +8,10 @@ title: "@mstred's homepage"
   <article>{{ site.posts[0].content }}</article>
   <h1 class='footer'>&nbsp;</h1>
   <ul class="posts">
+	<!-- TODO filter by the last 3 or 5 posts -->
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+	<!-- TODO Link for "More posts" -->
   </ul>
 </div>
