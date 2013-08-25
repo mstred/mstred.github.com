@@ -36,7 +36,7 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-top: 1.6em;
 }
 
 ul.posts li {
@@ -70,7 +70,7 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 .site .header h1.title a {
@@ -97,17 +97,35 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid #ccc;
   margin-top: 2em;
   overflow: hidden;
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
+.site .header {
+	display: inline-block;
+	margin-bottom: 1em;
 }
 
-.site .footer .contact a {
+.site .header .contact {
+  font-size: 80%;
+  color: #666;
+  display: block;
+  position: absolute;
+ /* margin-top: 2em;
+  overflow: hidden;
+  float: left;
+  margin-right: 3em; */
+}
+
+.site .header .contact-links {
+	display: block;
+	margin-left: 11.7em;
+	margin-top: -0.3em;
+}
+
+.site .header .contact-links a {
+  font-size: 80%;
   color: #8085C1;
 }
 
