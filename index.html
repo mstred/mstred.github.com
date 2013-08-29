@@ -6,11 +6,5 @@ title: "@mstred's homepage"
 <div id="home">
   <h1>{{ site.posts[0].title }}</h1>
   <article>{{ site.posts[0].content }}</article>
-  <h1 class='footer'>&nbsp;</h1>
-  <ul class="posts">
-    {% for post in site.posts reversed limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-	<!-- TODO Link for "More posts" -->
-  </ul>
+  </h1>
 </div>
