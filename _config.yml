@@ -10,10 +10,10 @@ relative_permalinks: true
 # Setup
 title:               mstred
 tagline:             'A Software Developer'
-description:         ''
 url:                 https://mstred.github.io
 baseurl:             /
 paginate:            1
+paginate_path:       '/post/:num'
 
 # About/contact
 author:
