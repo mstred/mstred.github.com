@@ -1,0 +1,9 @@
+/*
+*  style.css - custom style definitions
+*/
+
+.sidebar .avatar {
+  width: 280px;
+  height: 280px;
+  background: url('https://avatars2.githubusercontent.com/u/1061950') top left / 280px 280px no-repeat;
+}
