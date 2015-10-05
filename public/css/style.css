@@ -3,7 +3,8 @@
 */
 
 .sidebar .avatar {
-  border-radius: 4px
+  border-radius: 4px;
+  margin: 0px;
 }
 
 .sidebar a {
