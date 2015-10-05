@@ -5,6 +5,11 @@
 .sidebar .avatar {
   border-radius: 4px
 }
+
 .sidebar a {
   outline: none
+}
+
+img.center {
+  margin: 0px auto;
 }
