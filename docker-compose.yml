@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jekyll:
+    entrypoint: 'bash'
+    image: jekyll/jekyll:pages
+    ports:
+      - 4000:4000
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/srv/jekyll
