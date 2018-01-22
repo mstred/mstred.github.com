@@ -1,12 +1,10 @@
-version: '3'
-
+version: "3.2"
 services:
-  jekyll:
-    entrypoint: 'bash'
-    image: jekyll/jekyll:pages
+  site:
+    command: jekyll serve -wI
+    image: jekyll/jekyll
+    volumes:
+      - $PWD:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle
     ports:
       - 4000:4000
-    stdin_open: true
-    tty: true
-    volumes:
-      - ./:/srv/jekyll
