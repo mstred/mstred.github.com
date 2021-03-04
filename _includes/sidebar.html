@@ -26,7 +26,11 @@
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}
+      &copy; <time class="current-year"></time>
     </p>
   </div>
 </div>
+
+<script type="text/javascript">
+    document.querySelector("time.current-year").innerText = (new Date().getFullYear());
+</script>
